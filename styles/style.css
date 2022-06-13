@@ -8,6 +8,11 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
+@font-face {
+  src:url(/styles/Inter-Regular.woff) format( 'woff' );
+  font-family: 'Inter Regular';
+}
+
 
 .header {
   height: 100vh;
