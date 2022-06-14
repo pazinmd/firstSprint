@@ -6,12 +6,32 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-weight: bolder;
+  font-family: 'Inter Regular', sans-serif; /* здесь этого не было */
+  font-size: 25px; /* здесь этого не было
+  
+  /* font-family: 'Helvetica Neue', Arial, sans-serif; Изначально здесь было это! */
 }
 @font-face {
-  src:url(/styles/Inter-Regular.woff) format( 'woff' );
+  src:url(/styles/Inter-Regular.woff) format( 'woff' ),
+      url(/styles/Inter-Regular.woff2) format( 'woff2');
   font-family: 'Inter Regular';
 }
+
+@font-face {
+  src:url(/styles/Inter-SemiBold.woff) format( 'woff' ),
+      url(/styles/Inter-SemiBold.woff2) format( 'woff2' );
+  font-family: 'Inter SemiBold';
+  font-weight: bold;
+}
+
+@font-face {
+  src:url(/styles/Inter-Bold.woff) format( 'woff' ),
+      url(/styles/Inter-Bold.woff2) format( 'woff2' );
+  font-family: 'Inter Bold';
+  font-weight: bolder;
+}
+
 
 
 .header {
