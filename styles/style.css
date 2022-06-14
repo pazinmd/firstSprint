@@ -6,7 +6,8 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  
+  font-family:  'Inter', 'Arial', sans-serif;
+  font-weight: normal;
   
   /* font-family: 'Helvetica Neue', Arial, sans-serif; Изначально здесь было это! */
 }
@@ -31,12 +32,6 @@
   font-weight: bolder;
 }
 
-.page {
-  font-family:  'Inter', 'Arial', sans-serif;
-  font-weight: normal;
-  min-width: 1100px;
-  max-width: 1600px;
-}
  
 
 .header {
@@ -59,6 +54,8 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+/* Описания стилей для каждого элемента section  */
 .description {
   width: 80%;
   margin: 100px auto ;
@@ -172,10 +169,11 @@ margin-right: auto;
   font-weight: normal;
 }
 
-.table_cell__theme_dark {
+.table__table_cell_theme_dark {
   margin-top: 80px;
   color: white;
   width: 200px;
+  margin-right: 0;
 }
 .table_heading__theme_dark {
   margin-top: 0px;
