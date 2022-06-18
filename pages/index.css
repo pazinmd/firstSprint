@@ -1,3 +1,12 @@
+@import '../blocks/header/header.css';
+@import '../blocks/logo/logo.css';
+@import '../blocks/logo/_place/logo_place_header.css';
+@import '../blocks/header/__title/header__title.css';
+@import '../blocks/header/__subtitle/header__subtitle.css';
+@import '../blocks/header/__main-illustration/header__main-illustration.css';
+@import '../blocks/header/__square-pic/header__square-pic.css';
+@import '../blocks/page/page.css';
+/* 
 @import url('../blocks/header/header.css');
 @import url('../blocks/logo/logo.css');
 @import url('../blocks/logo/_place/logo_place_header.css');
@@ -5,4 +14,4 @@
 @import url('../blocks/header/__subtitle/header__subtitle.css');
 @import url('../blocks/header/__main-illustration/header__main-illustration.css');
 @import url('../blocks/header/__square-pic/header__square-pic.css');
-@import url('../blocks/page/page.css');
+@import url('../blocks/page/page.css'); */
