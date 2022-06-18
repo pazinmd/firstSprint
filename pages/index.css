@@ -1,4 +1,10 @@
-@import '../blocks/header/header.css';
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__title/header__title.css');
+@import url('/blocks/header/__title/header__title.css');
+@import url(/blocks/header/__title/header__title.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(blocks/header/__title/header__title.css);
+@import url(./blocks/header__title/header__title);
 @import '../blocks/logo/logo.css';
 @import '../blocks/logo/_place/logo_place_header.css';
 @import '../blocks/header/__title/header__title.css';
