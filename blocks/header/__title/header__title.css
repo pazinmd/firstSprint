@@ -9,18 +9,3 @@
   margin: 0;
   z-index: 5;
 }
-
-
-@media screen and (max-width: 1440px) {
-  .header__title {
-    max-width: 50%;
-    font-size: calc((100vw - 320px)/(1440 - 320) * (102 - 60) + 60px);
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .header__title {
-    max-width: 45%;
-  }
-}
-
