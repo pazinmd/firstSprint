@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-  <link rel="stylesheet" href="./pages/index.css" />
+  <link rel="stylesheet" href="./pages/index.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Сайт учит о том как нужно учиться">
@@ -18,12 +18,13 @@
       <h1 class="header__title">Научиться учиться</h1>
       <h2 class="header__subtitle">Какие современные и эффективные
         подходы к обучению вы можете использовать в своей жизни?
-        <a href="#" class="header__link"> Узнать →</a>
+        <a href="#" class="header__link link"> Узнать →</a>
       </h2>
-      <!-- здесь еще нужно реализовать hover как в обучении на header link -->
       <img src="./images/header-image.png" alt="Изображение грустного мальчика" class="header__main-illustration">
       <div class="header__square-pic"></div>
     </header>
+
+    <!-- content main section start -->
     <main class="content">
 
       <section class="description">
@@ -234,25 +235,37 @@
       </section>
 
     </main>
-
+<!-- footer section start -->
     <footer class="footer">
-      <div class="footer_columns">
+      <div class="footer__columns">
         <div class="footer__column content_copyright">
-          <div class="logo place__footer"></div>
+          <div class="logo place_footer"></div>
+          <h3 class="footer__author">&COPY;Павел Пазин</h3>
         </div>
-        <div class="footer__author"></div>
-        <div class="footer__column-heading"></div>
-        <div class="footer__column-links"></div>
-        <div class="footer_social-icon"></div>
-        <div class="footer_column-link"></div>
-        <div class="footer__column content_info"></div>
-        <div class="footer__logo content_social"></div>
+
+        <div class="footer__column content_info">
+          <h2 class="footer__column-heading">О Практикуме</h2>
+          <ul class="footer__column-links">
+            <li class="footer__column-link">Главная</li>
+            <li class="footer__column-link">Концепция</li>
+            <li class="footer__column-link">Наставники</li>
+          </ul>
+        </div>
+
+        <div class="footer__column content_social">
+         <h2 class="footer__column-heading">Соцсети</h2>
+           <ul class="footer__column-links">
+            <li class="footer__column-link">Facebook</li>
+            <li class="footer__column-link">Вконтакте</li>
+            <li class="footer__column-link">Instagram</li>
+           </ul>
+        </div>
       </div>
 
     </footer>
-
+<!-- footer section end -->
   </div>
-  <!-- The end of page div -->
+  <!-- The end of a page div -->
 </body>
 
 </html>

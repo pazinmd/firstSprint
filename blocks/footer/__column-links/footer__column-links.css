@@ -1,0 +1,6 @@
+.footer__column-links {
+    border: 1px solid whitesmoke;
+    list-style: none;
+    margin: 20px 0 16px 0; 
+    padding: 0;
+}
