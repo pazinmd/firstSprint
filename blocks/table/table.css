@@ -3,7 +3,6 @@
 @import url('__text/table__text.css');
 @import url('_theme/table__cell_theme_dark.css');
 .table {
-    border: #2f80ed 3px solid;
     /* margin-left: auto;
     margin-right: auto; */
     margin: 0;
