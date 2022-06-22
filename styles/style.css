@@ -1,28 +1,42 @@
 
 
+@font-face {
+    font-family: 'Inter';
+    src: url('./Inter-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./Inter-Regular.woff2') format('woff2');
+}
 
 
+@font-face {
+    font-family: 'Inter';
+    src: url('./Inter-Bold.woff') format('woff');
+    font-weight: bold;
+}
 
 
-/* и элемента с модификатором вида ключ-значение */
-
-/* Описания стилей для каждого элемента section  */
-
-
-
-
-/* Конец описания стилей для каждого элемента section  */
+@font-face {
+    font-family: 'Inter';
+    src: url('./Inter-Bold.woff2') format('woff2');
+    font-weight: bold;
+}
 
 
+@font-face {
+    font-family: 'Inter';
+    src: url('../styles/Inter-SemiBold.woff') format('woff');
+    font-weight: 500;
+}
 
 
-
-
-
-
-
-
-
+@font-face {
+    font-family: 'Inter';
+    src: url('../styles/Inter-SemiBold.woff2') format('woff2');
+    font-weight: 500;
+}
 
 
 

@@ -2,7 +2,7 @@
 @import url('./__subtitle/feynman__subtitle.css');
 @import url('./__link/feynman__link.css');
 .feynman {
-    min-height: 790px;
+    min-height: 890px;
     display: flex;
     padding-top: 100px;
     flex-direction: column;
@@ -13,4 +13,5 @@
     background-position: left bottom;
     background-color:  #f2f2f2;
     padding-top: 100px;
+    position: relative;
 }

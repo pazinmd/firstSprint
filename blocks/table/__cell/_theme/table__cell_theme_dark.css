@@ -1,5 +1,5 @@
 .table__table_cell_theme_dark {
-    padding-top: 80px;
     color: white;
     width: 200px;
+    z-index: 3;
   }
