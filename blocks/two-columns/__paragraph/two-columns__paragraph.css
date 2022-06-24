@@ -6,3 +6,7 @@
     font-weight: normal;
   
   }
+
+  two-columns__paragraph:last-of-type {
+    padding-bottom: 0;
+  }
